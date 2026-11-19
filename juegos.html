@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerdito's Games</title>
+    <link rel="stylesheet" href="css/style.css">
+     <script src="js/main.js" defer></script>
+</head>
+ 
+
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="brand-banner">
+                <img src="img/banner (1).png" alt="Cerdito's Games">
+            </h1>
+            <p class="site-tagline">Desarrollo independiente de videojuegos</p>
+            <button id="menu-button" type="button" aria-expanded="false" aria-controls="page-menu"
+                    aria-label="Abrir menú">☰</button>
+            <nav id="page-menu" aria-label="Menú principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre_mi.html">Sobre mí</a></li>
+                    <li><a href="juegos.html" aria-current="page">Juegos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="actualizaciones.html">Actualizaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <div class = "filtros">
+            <button class ="btn-categoria" data-categoria="todos">Todos</button>
+            <button class ="btn-categoria" data-categoria="survival">Survival</button>
+             <button class ="btn-categoria" data-categoria="horror">Horror</button>
+            <button class ="btn-categoria" data-categoria="sandbox">Sandbox</button>
+             <button class ="btn-categoria" data-categoria="acción">Acción</button>
+             <button class ="btn-categoria" data-categoria="aventura">Aventura</button>
+             <button class ="btn-categoria" data-categoria="roguelike">Roguelike</button>
+        </div>
+        <section class="intro-card">
+            <p class="eyebrow">Proyectos</p>
+            <h2>Mis juegos</h2>
+            <p>Conoce mi proyecto actual y prueba la demo disponible.</p>
+        </section>
+
+        <section class="game-list" aria-label="Catálogo de juegos">
+            <article class="game-card" data-categoria="survival horror" id="five-nights-at-chinos">
+                <div class="game-card__meta">
+                    <span class="status-badge">Demo disponible</span>
+                    <span class="genre-label">Survival </span>
+                    <span class="genre-label">Horror</span>
+                    
+                </div>
+                <h2>Five Nights at Chino's</h2>
+                <p>Un fangame inspirado en el streamer ElchinoLNB. Sobrevive a los enemigos que te acechan durante la noche y completa las noches posteriores para avanzar.</p>
+                <p class="game-card__note">El juego sigue en desarrollo. La demo se puede descargar en Itch.io y también jugar en el navegador. </p>
+                <p></p><strong>IMPORTANTE: LA DEMO SOLO SE PUEDE JUGAR EN PC</strong></p>
+                <a class="button" href="games/Five Nights At Chino's/FnafChinoDemo.html">Jugar demo</a>
+
+                <div class="itch-embed">
+               <iframe frameborder="0" src="https://itch.io/embed/5261668?bg_color=000000&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=2674a4" width="552" height="167"><a href="https://elcerditolnb.itch.io/fangamechinovichlnb">Five Nights at Chino's Demo by ElcerditoLNB</a></iframe>
+                    </div>
+            </article>
+        </section>
+        <section class="game-list" aria-label="Catálogo de juegos">
+            <article class="game-card game-card--split" data-categoria="sandbox" id="the-button">
+                <div class="game-card__content">
+                    <div class="game-card__meta">
+                        <span class="status-badge">En desarrollo / sin confirmar</span>
+                        <span class="genre-label">Sandbox</span>
+                    </div>
+                    <h2>The Button</h2>
+                    <p>Un videojuego donde eres tú y un botón. ¿Qué hace el botón? No se sabe hasta que lo presiones. ¿Qué podría ocasionar un simple botón?</p>
+                    <p class="game-card__note">Este título está en desarrollo; su estado aún está por confirmar.</p>
+                    <p><strong>Estado por confirmar.</strong></p>
+                </div>
+                <img class="game-card__image" src="img/images.jpg" alt="Persona pensativa junto a un signo de interrogación">
+            </article>
+        </section>
+        <section class="game-list" aria-label="Catálogo de juegos">
+            <article class="game-card game-card--split" data-categoria="acción" id="Just Fight">
+                <div class="game-card__content">
+                    <div class="game-card__meta">
+                        <span class="status-badge">En desarrollo / sin confirmar</span>
+                        <span class="genre-label">Acción</span>
+                    </div>
+                    <h2>Just Fight</h2>
+                    <p>Adentrarte a una isla donde se realiza unas de las competencias más mortales del mundo y resuelve los misterios que aguarda la misma.</p>
+                    <p class="game-card__note">Este título está en desarrollo; su estado aún está por confirmar.</p>
+                    <p><strong>Estado por confirmar.</strong></p>
+                </div>
+                <img class="game-card__image" src="img/images.jpg" alt="Persona pensativa junto a un signo de interrogación">
+            </article>
+        </section>
+         <section class="game-list" aria-label="Catálogo de juegos">
+            <article class="game-card game-card--split" data-categoria="survival horror" id="The bike">
+                <div class="game-card__content">
+                    <div class="game-card__meta">
+                        <span class="status-badge">En desarrollo / sin confirmar</span>
+                        <span class="genre-label">Survival</span>
+                        <span class="genre-label">Horror</span>
+                    </div>
+                    <h2>The bike</h2>
+                    <p>Un videojuego donde eres tú y un botón. ¿Qué hace el botón? No se sabe hasta que lo presiones. ¿Qué podría ocasionar un simple botón?</p>
+                    <p class="game-card__note">Este título está en desarrollo; su estado aún está por confirmar.</p>
+                    <p><strong>Estado por confirmar.</strong></p>
+                </div>
+                <img class="game-card__image" src="img/images.jpg" alt="Persona pensativa junto a un signo de interrogación">
+            </article>
+        </section>
+         <section class="game-list" aria-label="Catálogo de juegos">
+            <article class="game-card game-card--split" data-categoria="aventura roguelike" id="Lixbalt">
+                <div class="game-card__content">
+                    <div class="game-card__meta">
+                        <span class="status-badge">En desarrollo / sin confirmar</span>
+                        <span class="genre-label"> Roguelike</span>
+                        <span class="genre-label">Aventura</span>
+                    </div>
+                    <h2>Lixbalt</h2>
+                    <p>Un Rogelite donde puedes usar diferentes personajes con distintos finales posibles cada uno. Solo trata de no morir o tendras que empezar desde cero</p>
+                    <p class="game-card__note">Este título está en desarrollo; su estado aún está por confirmar.</p>
+                    <p><strong>Estado por confirmar.</strong></p>
+                </div>
+                <img class="game-card__image" src="img/images.jpg" alt="Persona pensativa junto a un signo de interrogación">
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Cerdito's Games. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

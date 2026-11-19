@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerdito's Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+ 
+
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="brand-banner">
+                <img src="img/banner (1).png" alt="Cerdito's Games">
+            </h1>
+            <p class="site-tagline">Desarrollo independiente de videojuegos</p>
+            <button id="menu-button" type="button" aria-expanded="false" aria-controls="page-menu"
+                    aria-label="Abrir menú">☰</button>
+
+            <nav id="page-menu" aria-label="Menú principal">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Inicio</a></li>
+                    <li><a href="sobre_mi.html">Sobre mí</a></li>
+                    <li><a href="juegos.html">Juegos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="actualizaciones.html">Actualizaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <section class="intro-card">
+            <p class="eyebrow">¡Bienvenido!</p>
+            <h2>Juegos creados con pasión y curiosidad</h2>
+            <p>Explora mis proyectos y conoce el proceso detrás de cada juego.</p>
+        </section>
+
+        <section class="featured-game" aria-labelledby="featured-game-title">
+            <div class="game-card__meta">
+                <span class="status-badge">Demo disponible</span>
+                <span class="genre-label">Survival </span>
+                <span class="genre-label"> Horror</span>
+            </div>
+            <div class="featured-game__title">
+                <img class="featured-game__image" src="img/chinopelado.png" alt="Personaje de Five Nights at Chino's">
+                <h2 id="featured-game-title">Five Nights at Chino's</h2>
+            </div>
+            <p>Mi proyecto actual: un fangame de terror y supervivencia. Ya puedes conocer más sobre él en la sección de Juegos.</p>
+            <a class="button" href="juegos.html#five-nights-at-chinos">Ver el juego</a>
+        </section>
+
+        <section class="content-card">
+            <h2>Sobre mí</h2>
+            <p>Soy desarrollador independiente de videojuegos. Me gusta aprender, crear experiencias nuevas y mejorar mis habilidades con cada proyecto.</p>
+            <a class="text-link" href="sobre_mi.html">Conoce más sobre mí</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Cerdito's Games. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
