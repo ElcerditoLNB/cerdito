@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerdito's Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+ 
+
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="brand-banner">
+                <img src="img/banner (1).png" alt="Cerdito's Games">
+            </h1>
+            <p class="site-tagline">Desarrollo independiente de videojuegos</p>
+            <button id="menu-button" type="button" aria-expanded="false" aria-controls="page-menu"
+                    aria-label="Abrir menú">☰</button>
+            <nav id="page-menu" aria-label="Menú principal">
+                <ul>
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="sobre_mi.html"aria-current="page">Sobre mí</a></li>
+                    <li><a href="juegos.html">Juegos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="actualizaciones.html">Actualizaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container page-content">
+        <div class="about-layout">
+        <section class="intro-card">
+            <h2>Presentación:</h2>
+            <p>Me presento, soy Tomas Iglesias un principiante desarrollador de videojuegos guiado por la pasión por jugar y la curiosidad de crear experiencias divertidas, sorprendentes y entretenidas. 
+            </p>
+        </section>
+        <section class="content-card">
+            <h2>Historia</h2>
+            <p>En 2020 descubrí este mundo maravilloso por curiosidad de como estaba formado un videojuego. durante 2021 y 2023 empecé a ver un poco de programación y diseño. 2024 Hice mi primer videojuego para un proyecto escolar y ahora en el presente sigo aprendiendo, pude sacar mi primera demo de un proyecto un poco más ambicioso.</p>
+        </section>
+        </div>
+        <section class="content-card skills-card">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>Programación.</li>
+                <li>Diseño de experiencia de usuario.</li>
+                <li>Diseño de videojuegos.</li>
+            </ul>
+        </section>
+        
+        <section class="gallery-section" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">Imagenes</h2>
+
+            <div class="gallery-grid">
+                
+            <button class="gallery-trigger" type="button" aria-label="Ampliar imagen del proyecto">
+            <img src="img/nilipuerta.jpg" alt="captura">
+            </button>
+            <button class="gallery-trigger" type="button" aria-label="Ampliar imagen del proyecto">
+            <img src="img/Oficina centro.png" alt="captura">
+            </button>
+            <button class="gallery-trigger" type="button" aria-label="Ampliar imagen del proyecto">
+            <img src="img/Luispomni_estado_3.png" alt="captura">
+            </button>
+            <button class="gallery-trigger" type="button" aria-label="Ampliar imagen del proyecto">
+            <img src="img/Camara 1.gif" alt="captura">
+            </button>
+            
+            </div>
+        </section>
+        <dialog class="image-viewer" aria-label="Imagen ampleada">
+            <button class="image-viewer__close" type="button">Cerrar</button>
+            <img src="" alt="">
+        </dialog>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Cerdito's Games. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
